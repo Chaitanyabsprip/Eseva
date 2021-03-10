@@ -1,0 +1,146 @@
+@import url('//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+body {
+  font-family: Hack, Asap, sans-serif;
+  margin: 0;
+  background-color: #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border-bottom: 1px solid black;
+  vertical-align: bottom;
+}
+
+tr:hover {
+  background-color: #a5a5a5;
+}
+
+.header {
+  text-align: center;
+  padding: 1px;
+  font-size: 24px;
+  background: #04522b;
+  color: #fff;
+}
+
+.form-inline {
+  float: right;
+  display: inline-flex;
+}
+
+.form-inline label {
+  padding-right: 16px;
+  font-size: 24px;
+  color: #818181;
+}
+
+.form-inline input {
+  width: 250px;
+}
+
+.img {
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  float: right;
+  display: inline-flex;
+}
+
+#navbar {
+  background-color: #111;
+  color: #818181;
+  padding: 8px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: inline;
+}
+
+#navbar li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+#navbar a {
+  color: #818181;
+  text-decoration: none;
+  font-size: 24px;
+  padding-right: 15px;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.searchContent {
+  margin-left: 7%;
+  margin-top: 32px;
+  width: 90%;
+}
+
+.searchContent form {
+  width: 80%;
+  margin: 0% 10%;
+  display: inline-flex;
+}
+
+.searchContent .dropdown {
+  padding: 8px 8px;
+}
+
+.dropdown label {
+  padding: 0px 10px;
+  font-size: 20px;
+}
+
+.dropdown select {
+  width: 100px;
+  height: 24px;
+  background: #04522b;
+  color: #fff;
+}
+
+.quote {
+  height: 300px;
+  width: 70%;
+  margin: 5% 15%;
+}
+
+.quote img {
+  padding: 8px 0px;
+  height: 140px;
+  width: 140px;
+}
+
+.quote td {
+  text-align: center;
+  font-size: 24px;
+}
+
+.quote th {
+  padding: 8px;
+  text-align: center;
+  font-size: medium;
+}
+
+.entry {
+  padding: 50px 0px;
+}
+
+#img {
+  width: 140px;
+}
+
+.column {
+  width: max-content;
+}

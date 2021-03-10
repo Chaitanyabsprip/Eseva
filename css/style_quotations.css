@@ -1,0 +1,72 @@
+@import url('//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+body {
+    font-family: Hack, Asap, sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.header {
+    text-align: center;
+    padding: 1px;
+    font-size: 24px;
+    background: #04522b;
+    color: #fff;
+}
+
+.form-inline {
+    float: right;
+    display: inline-flex;
+}
+
+.form-inline label {
+    padding-right: 16px;
+    font-size: 24px;
+    color: #818181;
+}
+
+.form-inline input {
+    width: 250px;
+}
+
+#navbar {
+    background-color: #111;
+    color: #818181;
+    padding: 8px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: inline;
+}
+
+#navbar li {
+    display: inline;
+    padding: 0px 8px;
+}
+
+#navbar a {
+    color: #818181;
+    text-decoration: none;
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+.nav {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img {
+    padding: 4px;
+    height: 24px;
+    width: 24px;
+    float: right;
+    display: inline-flex;
+}
+
+.about{
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+@import url('//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+
+body {
+  font-family: Hack, Asap, sans-serif;
+  margin: 0;
+  background-color: #ccc;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  padding: 1px;
+  font-size: 24px;
+  background: #04522b;
+  color: #fff;
+}
+.form-inline {
+  float: right;
+  display: inline-flex;
+}
+
+.form-inline label {
+  padding-right: 16px;
+  font-size: 24px;
+  color: #818181;
+}
+
+.form-inline input {
+  width: 250px;
+}
+
+.img {
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  float: right;
+  display: inline-flex;
+}
+#navbar {
+  background-color: #111;
+  color: #fff;
+  padding: 8px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: inline;
+}
+
+#navbar li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+#navbar a {
+  color: #818181;
+  text-decoration: none;
+  font-size: 24px;
+  padding-right: 15px;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  /*top: 0;*/ /* Stay at the top */
+  left: 0;
+  background-color: rgb(49, 49, 49); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 15px 8px 15px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 40px 10%;
+  font-size: 24px;
+}
+
+.main img{
+    height:350px;
+    width: 450px;
+    padding: 24px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.icon{
+  padding: 16 px;
+}
+.icon img{
+  height: 32px;
+  width: 32px;
+  display: inlilne-flex;
+  /* border: 1px solid; */
+  padding: 0 ;
+  margin: 0;
+  margin-left: 24px;
+}
+
+.icon{}
